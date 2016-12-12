@@ -464,7 +464,7 @@ ul.nav{
 .contact{}
 .contact h2{
 	font-size: 46px;
-	color: #02918c;
+	color: #FFC000;
 	margin-top: 100px;
 	font-weight: 800;
 	margin-bottom: 35px;
@@ -508,7 +508,7 @@ input.message{
 	width: 200px;
 	height: 50px;
 	border:0;
-	background: #cfc91d;
+	background: #FFC000;
 	font-size: 14px;
 	color: #0b1016;
 	font-weight: 800;
@@ -522,8 +522,8 @@ input.message{
 	-ms-transition: all 0.5s ease 0s;
 }
 .contact-form input.submit-btn:hover{
-	background: red;
-	color: #fff;
+	background: white;
+	color: black;
 }
 
 .form-input::-webkit-input-placeholder {
@@ -682,6 +682,7 @@ responsive area
     text-align: justify;
     padding-left: 0em;
 }
+
 
 
 

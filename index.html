@@ -15,7 +15,7 @@
       <script src="js/html5shiv.js"></script>
       <script src="js/respond.min.js"></script>
     <![endif]-->
-
+    <script src='https://www.google.com/recaptcha/api.js?hl=es'></script>
 </head>
 
 <body>
@@ -727,128 +727,35 @@
     </section>
 
     <!-- CONTACTO -->
-    
-            <!--<div class="col-md-3 single-portfolio col-sm-6">
-                <figure class="portfolio-item">
-                    <img class="img-responsive" src="img/portfolio.jpg" alt="">
-                    <figcaption class="portfolio-details">
-                        <h4>Title goes here</h4>
-                        <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
-                    </figcaption>
-                </figure>
-                <a href="img/portfolio.jpg"><i class="fa fa-search"></i></a>
-            </div>
-
-            <div class="col-md-3 single-portfolio col-sm-6">
-                <figure class="portfolio-item">
-                    <img class="img-responsive" src="img/portfolio2.jpg" alt="">
-                    <figcaption class="portfolio-details">
-                        <h4>Title goes here</h4>
-                        <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
-                    </figcaption>
-                </figure>
-                <a href="img/portfolio2.jpg"><i class="fa fa-search"></i></a>
-            </div>
-
-            <div class="col-md-3 single-portfolio col-sm-6">
-                <figure class="portfolio-item">
-                    <img class="img-responsive" src="img/portfolio3.jpg" alt="">
-                    <figcaption class="portfolio-details">
-                        <h4>Title goes here</h4>
-                        <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
-                    </figcaption>
-                </figure>
-                <a href="img/portfolio3.jpg"><i class="fa fa-search"></i></a>
-            </div>
-
-            <div class="col-md-3 single-portfolio col-sm-6">
-                <figure class="portfolio-item">
-                    <img class="img-responsive" src="img/portfolio4.jpg" alt="">
-                    <figcaption class="portfolio-details">
-                        <h4>Title goes here</h4>
-                        <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
-                    </figcaption>
-                </figure>
-                <a href="img/portfolio4.jpg"><i class="fa fa-search"></i></a>
-            </div>
-
-            <div class="col-md-3 single-portfolio col-sm-6">
-                <figure class="portfolio-item">
-                    <img class="img-responsive" src="img/portfolio5.jpg" alt="">
-                    <figcaption class="portfolio-details">
-                        <h4>Title goes here</h4>
-                        <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
-                    </figcaption>
-                </figure>
-                <a href="img/portfolio5.jpg"><i class="fa fa-search"></i></a>
-            </div>
-
-            <div class="col-md-3 single-portfolio col-sm-6">
-                <figure class="portfolio-item">
-                    <img class="img-responsive" src="img/portfolio6.jpg" alt="">
-                    <figcaption class="portfolio-details">
-                        <h4>Title goes here</h4>
-                        <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
-                    </figcaption>
-                </figure>
-                <a href="img/portfolio6.jpg"><i class="fa fa-search"></i></a>
-            </div>
-
-            <div class="col-md-3 single-portfolio col-sm-6">
-                <figure class="portfolio-item">
-                    <img class="img-responsive" src="img/portfolio7.jpg" alt="">
-                    <figcaption class="portfolio-details">
-                        <h4>Title goes here</h4>
-                        <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
-                    </figcaption>
-                </figure>
-                <a href="img/portfolio7.jpg"><i class="fa fa-search"></i></a>
-            </div>
-
-            <div class="col-md-3 single-portfolio col-sm-6">
-                <figure class="portfolio-item">
-                    <img class="img-responsive" src="img/portfolio8.jpg" alt="">
-                    <figcaption class="portfolio-details">
-                        <h4>Title goes here</h4>
-                        <p>onsectetur adipisicing elit, sedo eiusmod tempor incidi et dolorerserss eerhfre mag.</p>
-                    </figcaption>
-                </figure>
-                <a href="img/portfolio8.jpg"><i class="fa fa-search"></i></a>
-            </div>
-        </div>
-    </section>-->
-    <!-- end of portfolio section -->
-
-    <!--<section class="contact text-center" id="sec5">
+    <section class="contact text-center" id="contacto">
         <div class="container">
             <div class="row">
                 <article class="contact-heading">
-                    <h2>CONTACT ME</h2>
-                    <img src="img/daag.png" alt="">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-                        <br> ut labore et dolore magna aliqua.</p>
+                    <h2>CONTACTO</h2>
+                    <p align="center">Para cualquier asunto relacionado con el sitio, por favor comuníquese con nosotros
+                        vía correo electrónico o al teléfono <b>(04455) 34 56 53 91</b></p>
                 </article>
             </div>
         </div>
     </section>
-
     <section class="contact-form">
         <div class="container">
             <div class="row">
                 <div class="form">
-                    <form action="contact.php">
+                    <form action="contact.php" method="post">
                         <div class="sbtn col-md-12 text-center">
-                            <input class="name form-input" type="text" placeholder="NAME">
-                            <input class="email form-input" type="email" placeholder="EMAIL">
-                            <input class="message form-input" type="text" placeholder="MASSAGE">
+                            <input name="nombre" class="name form-input" type="text" placeholder="NOMBRE" style="text-transform: uppercase;">
+                            <input name="email" class="email form-input" type="email" placeholder="EMAIL">
+                            <input name="mensaje" class="message form-input" type="text" placeholder="MENSAJE" style="text-transform: uppercase;">
+                            <div class="g-recaptcha" data-sitekey="6LfViQ4UAAAAAM9AAaWAfrejmpU8O1E8rRtuCBtR" data-theme="dark"></div>
                             <input class="submit-btn" type="submit">
                         </div>
                     </form>
                 </div>
             </div>
         </div>
-    </section>-->
-
+    </section>
+    
     <!-- Footer -->
     <footer class="footer text-center">
         <p>Derechos Reservados | <a href="#">Términos de uso y Políticas</a> | <a href="#">Aviso de Privacidad</a> | <a href="#">Asistencia</a></p>
@@ -859,6 +766,12 @@
     <script src="js/smoothscroll.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/custom.js"></script>
-</body>
+</bod
+
+<?php 
+      foreach ($_POST as $key => $value) {
+        echo '<p><strong>' . $key.':</strong> '.$value.'</p>';
+      }
+    ?>
 
 </html>
