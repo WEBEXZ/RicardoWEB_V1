@@ -1,0 +1,124 @@
+[21-Dec-2016 22:35:13 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/index.php on line 26
+[21-Dec-2016 22:35:26 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/index.php on line 26
+[21-Dec-2016 22:37:41 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 26
+[21-Dec-2016 22:37:43 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 26
+[21-Dec-2016 22:38:43 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/index.php on line 26
+[21-Dec-2016 22:38:44 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/index.php on line 26
+[21-Dec-2016 22:38:46 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/index.php on line 26
+[21-Dec-2016 22:38:49 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/index.php on line 26
+[21-Dec-2016 22:41:48 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 26
+[21-Dec-2016 22:41:49 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 26
+[21-Dec-2016 22:42:13 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 26
+[21-Dec-2016 22:43:25 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 745
+[21-Dec-2016 22:43:25 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 745
+[21-Dec-2016 22:43:42 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 745
+[21-Dec-2016 22:43:43 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 745
+[21-Dec-2016 22:43:55 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 745
+[21-Dec-2016 22:43:57 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 745
+[21-Dec-2016 22:44:11 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 745
+[21-Dec-2016 22:44:11 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 745
+[21-Dec-2016 22:44:12 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 745
+[21-Dec-2016 22:44:19 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 745
+[21-Dec-2016 22:44:27 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 745
+[21-Dec-2016 22:45:48 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 26
+[21-Dec-2016 22:46:13 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 26
+[21-Dec-2016 22:46:15 America/Mexico_City] PHP Fatal error:  Call to undefined function form_open() in /home/somostal/public_html/application/views/index.php on line 26
+[21-Dec-2016 22:47:49 America/Mexico_City] PHP Fatal error:  Call to undefined function base_url() in /home/somostal/public_html/application/views/index.php on line 13
+[21-Dec-2016 22:49:17 America/Mexico_City] PHP Fatal error:  Call to undefined function base_url() in /home/somostal/public_html/application/views/index.php on line 13
+[21-Dec-2016 22:49:56 America/Mexico_City] PHP Fatal error:  Call to undefined function base_url() in /home/somostal/public_html/application/views/index.php on line 13
+[21-Dec-2016 22:50:01 America/Mexico_City] PHP Fatal error:  Call to undefined function base_url() in /home/somostal/public_html/application/views/index.php on line 13
+[21-Dec-2016 22:50:07 America/Mexico_City] PHP Fatal error:  Call to undefined function base_url() in /home/somostal/public_html/application/views/index.php on line 13
+[21-Dec-2016 22:51:07 America/Mexico_City] PHP Fatal error:  Call to undefined function base_url() in /home/somostal/public_html/application/views/index.php on line 13
+[21-Dec-2016 22:51:23 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/index.php on line 26
+[21-Dec-2016 22:55:22 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/index.php on line 26
+[21-Dec-2016 23:09:07 America/Mexico_City] PHP Fatal error:  Call to a member function login() on a non-object in /home/somostal/public_html/application/controllers/Verifylogin.php on line 38
+[21-Dec-2016 23:09:40 America/Mexico_City] PHP Fatal error:  Call to a member function login() on a non-object in /home/somostal/public_html/application/controllers/Verifylogin.php on line 38
+[21-Dec-2016 23:42:28 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'nombre' (T_STRING) in /home/somostal/public_html/application/views/index.php on line 893
+[21-Dec-2016 23:42:57 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'nombre' (T_STRING) in /home/somostal/public_html/application/views/index.php on line 893
+[21-Dec-2016 23:49:41 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'submit' (T_STRING), expecting ',' or ';' in /home/somostal/public_html/application/views/index.php on line 901
+[21-Dec-2016 23:49:41 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'submit' (T_STRING), expecting ',' or ';' in /home/somostal/public_html/application/views/index.php on line 901
+[21-Dec-2016 23:49:42 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'submit' (T_STRING), expecting ',' or ';' in /home/somostal/public_html/application/views/index.php on line 901
+[21-Dec-2016 23:49:47 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'submit' (T_STRING), expecting ',' or ';' in /home/somostal/public_html/application/views/index.php on line 901
+[21-Dec-2016 23:49:49 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'submit' (T_STRING), expecting ',' or ';' in /home/somostal/public_html/application/views/index.php on line 901
+[21-Dec-2016 23:49:50 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'submit' (T_STRING), expecting ',' or ';' in /home/somostal/public_html/application/views/index.php on line 901
+[21-Dec-2016 23:49:50 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'submit' (T_STRING), expecting ',' or ';' in /home/somostal/public_html/application/views/index.php on line 901
+[21-Dec-2016 23:50:34 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'submit' (T_STRING), expecting ',' or ';' in /home/somostal/public_html/application/views/index.php on line 901
+[21-Dec-2016 23:50:56 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'submit' (T_STRING) in /home/somostal/public_html/application/views/index.php on line 901
+[21-Dec-2016 23:51:51 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'submit' (T_STRING) in /home/somostal/public_html/application/views/index.php on line 901
+[22-Dec-2016 00:05:22 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/somostal/public_html/application/views/index.php on line 896
+[22-Dec-2016 00:05:23 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')', expecting ',' or ';' in /home/somostal/public_html/application/views/index.php on line 896
+[23-Dec-2016 12:46:44 America/Mexico_City] PHP Fatal error:  Call to undefined function email() in /home/somostal/public_html/application/controllers/Inicio.php on line 42
+[23-Dec-2016 12:48:46 America/Mexico_City] PHP Fatal error:  Call to undefined function email() in /home/somostal/public_html/application/controllers/Inicio.php on line 42
+[23-Dec-2016 12:50:23 America/Mexico_City] PHP Fatal error:  Call to a member function build() on a non-object in /home/somostal/public_html/application/controllers/Inicio.php on line 53
+[23-Dec-2016 12:51:42 America/Mexico_City] PHP Fatal error:  Call to a member function build() on a non-object in /home/somostal/public_html/application/controllers/Inicio.php on line 53
+[23-Dec-2016 12:52:49 America/Mexico_City] PHP Fatal error:  Call to a member function build() on a non-object in /home/somostal/public_html/application/controllers/Inicio.php on line 53
+[23-Dec-2016 13:01:44 America/Mexico_City] PHP Parse error:  syntax error, unexpected '/' in /home/somostal/public_html/application/views/index.php on line 892
+[26-Dec-2016 11:47:34 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/login.php on line 143
+[26-Dec-2016 11:49:47 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/login.php on line 143
+[26-Dec-2016 11:51:22 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/login.php on line 143
+[26-Dec-2016 14:29:17 America/Mexico_City] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/somostal/public_html/application/controllers/Home.php on line 11
+[26-Dec-2016 17:13:39 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/login.php on line 140
+[26-Dec-2016 17:15:27 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/login.php on line 140
+[27-Dec-2016 12:07:11 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/login.php on line 131
+[27-Dec-2016 12:09:01 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/login.php on line 109
+[27-Dec-2016 12:15:42 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/login.php on line 109
+[27-Dec-2016 12:15:45 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/login.php on line 109
+[27-Dec-2016 12:15:52 America/Mexico_City] PHP Fatal error:  Call to undefined function validation_errors() in /home/somostal/public_html/application/views/login.php on line 109
+[27-Dec-2016 12:18:30 America/Mexico_City] PHP Fatal error:  Call to a member function helper() on a non-object in /home/somostal/public_html/application/config/autoload.php on line 93
+[27-Dec-2016 12:18:56 America/Mexico_City] PHP Fatal error:  Call to undefined function base_url() in /home/somostal/public_html/application/views/index.php on line 13
+[28-Dec-2016 11:32:53 America/Mexico_City] PHP Fatal error:  Call to a member function set_userdata() on a non-object in /home/somostal/public_html/application/controllers/Verifylogin.php on line 50
+[28-Dec-2016 11:35:12 America/Mexico_City] PHP Fatal error:  Call to a member function set_userdata() on a non-object in /home/somostal/public_html/application/controllers/Verifylogin.php on line 50
+[28-Dec-2016 11:35:15 America/Mexico_City] PHP Fatal error:  Call to a member function set_userdata() on a non-object in /home/somostal/public_html/application/controllers/Verifylogin.php on line 50
+[28-Dec-2016 11:38:24 America/Mexico_City] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/somostal/public_html/application/controllers/Home.php on line 11
+[28-Dec-2016 11:39:13 America/Mexico_City] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/somostal/public_html/application/controllers/Home.php on line 11
+[28-Dec-2016 11:39:17 America/Mexico_City] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/somostal/public_html/application/controllers/Home.php on line 11
+[28-Dec-2016 11:39:41 America/Mexico_City] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/somostal/public_html/application/controllers/Home.php on line 11
+[28-Dec-2016 11:39:45 America/Mexico_City] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/somostal/public_html/application/controllers/Home.php on line 11
+[28-Dec-2016 11:39:47 America/Mexico_City] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/somostal/public_html/application/controllers/Home.php on line 11
+[28-Dec-2016 11:39:48 America/Mexico_City] PHP Fatal error:  Call to a member function userdata() on a non-object in /home/somostal/public_html/application/controllers/Home.php on line 11
+[28-Dec-2016 11:42:16 America/Mexico_City] PHP Fatal error:  Call to a member function set_userdata() on a non-object in /home/somostal/public_html/application/controllers/Verifylogin.php on line 51
+[28-Dec-2016 13:05:10 America/Mexico_City] PHP Fatal error:  Call to a member function set_message() on a non-object in /home/somostal/public_html/application/controllers/Verifylogin.php on line 58
+[28-Dec-2016 13:05:10 America/Mexico_City] PHP Fatal error:  Call to a member function set_message() on a non-object in /home/somostal/public_html/application/controllers/Verifylogin.php on line 58
+[28-Dec-2016 13:16:52 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'IniciaSesion' (T_STRING) in /home/somostal/public_html/application/controllers/Verifylogin.php on line 59
+[28-Dec-2016 13:17:13 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'IniciaSesion' (T_STRING) in /home/somostal/public_html/application/controllers/Verifylogin.php on line 59
+[28-Dec-2016 13:18:50 America/Mexico_City] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/somostal/public_html/application/controllers/Verifylogin.php on line 60
+[28-Dec-2016 13:19:40 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'IniciaSesion' (T_STRING) in /home/somostal/public_html/application/controllers/Verifylogin.php on line 59
+[28-Dec-2016 13:19:58 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'IniciaSesion' (T_STRING) in /home/somostal/public_html/application/controllers/Verifylogin.php on line 59
+[28-Dec-2016 13:58:14 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'IniciaSesion' (T_STRING) in /home/somostal/public_html/application/controllers/Verifylogin.php on line 59
+[28-Dec-2016 14:07:34 America/Mexico_City] PHP Parse error:  syntax error, unexpected '$this' (T_VARIABLE) in /home/somostal/public_html/application/controllers/Verifylogin.php on line 60
+[04-Jan-2017 00:49:55 America/Mexico_City] PHP Fatal error:  Call to undefined method CI_Loader::url() in /home/somostal/public_html/application/controllers/Inicio.php on line 17
+[04-Jan-2017 00:50:15 America/Mexico_City] PHP Fatal error:  Call to undefined method CI_Loader::url() in /home/somostal/public_html/application/controllers/Inicio.php on line 17
+[04-Jan-2017 00:50:31 America/Mexico_City] PHP Fatal error:  Call to undefined method CI_Loader::url() in /home/somostal/public_html/application/controllers/Inicio.php on line 17
+[05-Jan-2017 12:39:03 America/Mexico_City] PHP Fatal error:  Call to a member function run() on a non-object in /home/somostal/public_html/application/controllers/Verifylogin.php on line 14
+[05-Jan-2017 13:30:28 America/Mexico_City] PHP Fatal error:  Cannot use object of type stdClass as array in /home/somostal/public_html/application/controllers/Verifylogin.php on line 103
+[05-Jan-2017 13:33:37 America/Mexico_City] PHP Fatal error:  Cannot use object of type stdClass as array in /home/somostal/public_html/application/controllers/Verifylogin.php on line 101
+[05-Jan-2017 13:36:31 America/Mexico_City] PHP Fatal error:  Cannot use object of type stdClass as array in /home/somostal/public_html/application/controllers/Verifylogin.php on line 101
+[06-Jan-2017 18:05:51 America/Mexico_City] PHP Parse error:  syntax error, unexpected '$data' (T_VARIABLE), expecting function (T_FUNCTION) in /home/somostal/public_html/application/controllers/Inicio.php on line 6
+[06-Jan-2017 18:07:48 America/Mexico_City] PHP Parse error:  syntax error, unexpected '<' in /home/somostal/public_html/application/views/index.php on line 754
+[06-Jan-2017 18:08:46 America/Mexico_City] PHP Parse error:  syntax error, unexpected '<' in /home/somostal/public_html/application/views/index.php on line 754
+[06-Jan-2017 21:12:20 America/Mexico_City] PHP Parse error:  syntax error, unexpected '$Bandera' (T_VARIABLE), expecting function (T_FUNCTION) in /home/somostal/public_html/application/controllers/Inicio.php on line 5
+[06-Jan-2017 21:13:24 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'global' (T_GLOBAL), expecting function (T_FUNCTION) in /home/somostal/public_html/application/controllers/Inicio.php on line 6
+[06-Jan-2017 21:15:25 America/Mexico_City] PHP Parse error:  syntax error, unexpected '$GLOBALS' (T_VARIABLE), expecting function (T_FUNCTION) in /home/somostal/public_html/application/controllers/Inicio.php on line 6
+[09-Jan-2017 12:45:57 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[09-Jan-2017 12:47:13 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[09-Jan-2017 12:47:15 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[09-Jan-2017 12:52:36 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[09-Jan-2017 12:54:52 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[09-Jan-2017 12:55:31 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[09-Jan-2017 12:55:34 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[09-Jan-2017 12:55:34 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[09-Jan-2017 12:55:34 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[09-Jan-2017 12:55:35 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[09-Jan-2017 12:55:36 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[09-Jan-2017 12:55:36 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[09-Jan-2017 12:55:36 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[09-Jan-2017 12:56:21 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[09-Jan-2017 12:56:22 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[09-Jan-2017 12:56:22 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[09-Jan-2017 12:56:22 America/Mexico_City] PHP Parse error:  syntax error, unexpected ')' in /home/somostal/public_html/application/views/index.php on line 755
+[10-Jan-2017 18:53:49 America/Mexico_City] PHP Parse error:  syntax error, unexpected '1' (T_LNUMBER), expecting ')' in /home/somostal/public_html/application/controllers/Verifylogin.php on line 148
+[10-Jan-2017 18:54:29 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'TAEMPRESA' (T_STRING), expecting ')' in /home/somostal/public_html/application/controllers/Verifylogin.php on line 150
+[10-Jan-2017 19:11:41 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'TAEMPRESA' (T_STRING), expecting ')' in /home/somostal/public_html/application/controllers/Verifylogin.php on line 150
+[10-Jan-2017 19:12:14 America/Mexico_City] PHP Parse error:  syntax error, unexpected 'TAEMPRESA' (T_STRING), expecting ')' in /home/somostal/public_html/application/controllers/Verifylogin.php on line 150
+[10-Jan-2017 19:16:49 America/Mexico_City] PHP Parse error:  syntax error, unexpected ''FISTATUS=>1' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/somostal/public_html/application/controllers/Verifylogin.php on line 148
+[10-Jan-2017 19:17:11 America/Mexico_City] PHP Parse error:  syntax error, unexpected ''FISTATUS=> 1' (T_ENCAPSED_AND_WHITESPACE), expecting ')' in /home/somostal/public_html/application/controllers/Verifylogin.php on line 148
