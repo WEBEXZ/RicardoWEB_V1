@@ -5,6 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class PanelControl extends CI_Controller {
 
 	/**
+         * AGREGADO POR MARCO
 	 * Index Page for this controller.
 	 *
 	 * Maps to the following URL
