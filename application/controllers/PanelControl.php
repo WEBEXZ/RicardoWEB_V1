@@ -1,15 +1,12 @@
 <?php
-
 defined('BASEPATH') OR exit('No direct script access allowed');
-
 class PanelControl extends CI_Controller {
 
 	function __construct()
         {
           parent::__construct();
-          $this->load->helper(array('form', 'url'));
-          $this->load->library('form_validation');
-          
+          $this->load->helper(array('form','url'));
+          $this->load->library('form_validation');          
           $this->load->model('empresa');
 
         }
@@ -41,8 +38,8 @@ class PanelControl extends CI_Controller {
 		$this->load->view('errors/view_empresa');
 	}
 	public function getFormNewEmpresa(){
-            $this->form_validation->set_rules('tEmpresa', 'tEmpresa', array('required' => 'You must provide a %s.'));
-            $this->load->view('panelcontrol/view_new_empresa');
+            $this->form_validation->set_rules('tEmpresa', 'tEmpresa','required',array('required'=>'ingrese nombre de la empresa'));
+            $this->load->view('panelcontrol/view_new_empresa');  
 	}
  	public function getDatosEmpresa()
 	{
@@ -50,25 +47,10 @@ class PanelControl extends CI_Controller {
 		$this->load->view('panelcontrol/view_datos_empresa',array('empresa' => 'sadasdasd'));
 	}
 	public function getInformacionForm(){
-
-	/*	$empresa = $this->input->post('tEmpresa');
-		$rfc=$this->input->post('tRfc');
-		$descripcion=$this->input->post('tDescripcion');
-		$direccion=$this->input->post('tDireccion');
-		$telefono=$this->input->post('tTelefono');
-		$responsable=$this->input->post('tResponsable');
-		$pagina=$this->input->post('tPagina');
-		$mail=$this->input->post('tMail');
-		$pais=$this->input->post('tPais');
-		$estado=$this->input->post('tEstado');
-		$ciudad=$this->input->post('tCiudad');
-*/
-            if ($this->form_validation->run() == FALSE){            
-                 print_r(validation_errors()); 
-            }else{
+           
                 $this->empresa->saveEmpresa();
 		echo 'La empresa: '.$this->empresa->empresa;
-            }
+            
             
 	}
 

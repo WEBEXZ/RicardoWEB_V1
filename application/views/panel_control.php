@@ -99,6 +99,9 @@ $(document).ready(function(){
 
 
 
+
+
+
 $('#menu li a').click(function(e){
   var request=$.ajax({
     method:'POST',

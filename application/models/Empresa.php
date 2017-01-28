@@ -24,7 +24,7 @@ Class Empresa extends CI_Model
     $this->empresa= $row->FCEMPRESA;
   }
   public function saveEmpresa(){
-    $this->empresa   = $this->input->post('tEmpresa');
+    $this->empresa = $this->input->post('tEmpresa');
     $this->rfc=$this->input->post('tRfc');
     $this->descripcion=$this->input->post('tDescripcion');
     $this->direccion=$this->input->post('tDireccion');

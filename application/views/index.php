@@ -78,7 +78,7 @@ require_once "recaptchalib.php";
                                             <li><a href="#">Facturación</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="<?=base_url()?>panelcontrol">Panel de control</a></li>
+                                    <li><a href="<?=base_url()?>PanelControl">Panel de control</a></li>
                                 </ul>
                             </div>
                         </div>
