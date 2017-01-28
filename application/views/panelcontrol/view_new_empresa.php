@@ -4,82 +4,85 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <div class="panel panel-default">
    <div class="panel-heading">Ingrese información de empresa</div>
   <div class="panel-body">
-
-    <form class="form-horizontal" id="frmAlta" method="post" action="" >
+<?php echo form_open('',array(
+    'class'=>'form-horizontal',
+    'id'=>'frmAlta'
+)); ?>
+   
       <div class="form-group form-group-sm">
         <label for="" class="col-sm-3 col-xs-3 control-label">Empresa</label>
         <div class="col-sm-9 col-xs-9">
-          <input type="text" class="form-control input-sm" name="nEmpresa" placeholder="Nombre de empresa">
+          <input type="text" class="form-control input-sm" name="tEmpresa" placeholder="Nombre de empresa">
         </div>
       </div>
 
       <div class="form-group">
         <label for="" class="col-sm-3 col-xs-3 control-label">RFC</label>
         <div class="col-sm-9 col-xs-9">
-          <input type="text" class="form-control input-sm" id="" placeholder="RFC">
+          <input type="text" class="form-control input-sm" id=""  name="tRfc" placeholder="RFC">
         </div>
       </div>
 
       <div class="form-group">
         <label for="" class="col-sm-3 col-xs-3 control-label">Descripción</label>
         <div class="col-sm-9 col-xs-9">
-          <input type="text" class="form-control input-sm" id="" placeholder="Descripción/giro">
+          <input type="text" class="form-control input-sm" id="" name="tDescripcion" placeholder="Descripción/giro">
         </div>
       </div>
 
       <div class="form-group">
         <label for="" class="col-sm-3 col-xs-3 control-label">Dirección</label>
         <div class="col-sm-9 col-xs-9">
-          <input type="text" class="form-control input-sm" id="" placeholder="Dirección">
+          <input type="text" class="form-control input-sm" id="" name="tDireccion"placeholder="Dirección">
         </div>
       </div>
 
       <div class="form-group">
         <label for="" class="col-sm-3 col-xs-3 control-label">Teléfono</label>
         <div class="col-sm-9 col-xs-9">
-          <input type="text" class="form-control input-sm" id="" placeholder="Teléfono">
+          <input type="text" class="form-control input-sm" id="" name="tTelefono" placeholder="Teléfono">
         </div>
       </div>
 
       <div class="form-group">
         <label for="" class="col-sm-3 col-xs-3 control-label">Responsable</label>
         <div class="col-sm-9 col-xs-9">
-          <input type="text" class="form-control input-sm" id="" placeholder="Responsable">
+          <input type="text" class="form-control input-sm" id="" name="tResponsable" placeholder="Responsable">
         </div>
       </div>
 
       <div class="form-group">
         <label for="" class="col-sm-3 col-xs-3 control-label">Página WEB</label>
         <div class="col-sm-9 col-xs-9">
-          <input type="text" class="form-control input-sm" id="" placeholder="Página WEB">
+          <input type="text" class="form-control input-sm" id="" name="tPagina" placeholder="Página WEB">
         </div>
       </div>
 
       <div class="form-group">
         <label for="" class="col-sm-3 col-xs-3 control-label">Correo</label>
         <div class="col-sm-9 col-xs-9">
-          <input type="text" class="form-control input-sm" id="" placeholder="Correo contacto">
+          <input type="text" class="form-control input-sm" id="" name="tMail" placeholder="Correo contacto">
         </div>
       </div>
 
       <div class="form-group">
         <label for="" class="col-sm-3 col-xs-3 control-label">País</label>
         <div class="col-sm-9 col-xs-9">
-          <input type="text" class="form-control" id="" placeholder="País">
+          <input type="text" class="form-control" id=""  name="tPais" placeholder="País">
         </div>
       </div>
 
       <div class="form-group">
         <label for="" class="col-sm-3 col-xs-3 control-label">Estado</label>
         <div class="col-sm-9 col-xs-9">
-          <input type="text" class="form-control input-sm" id="" placeholder="Estado">
+          <input type="text" class="form-control input-sm" id="" name="tEstado" placeholder="Estado">
         </div>
       </div>
 
       <div class="form-group">
         <label for="" class="col-sm-3 col-xs-3 control-label">Ciudad</label>
         <div class="col-sm-9 col-xs-9">
-          <input type="text" class="form-control input-sm" id="" placeholder="Ciudad">
+          <input type="text" class="form-control input-sm" id="" name="tCiudad"placeholder="Ciudad">
         </div>
       </div>
 
@@ -127,7 +130,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <script>
 $(document).ready(function(){
-
   $("#frmAlta").submit(function(e) {
       var url = "<?php echo site_url('PanelControl/getInformacionForm'); ?>"; // the script where you handle the form input.
       $.ajax({

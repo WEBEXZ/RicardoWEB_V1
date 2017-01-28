@@ -21,12 +21,16 @@ defined('BASEPATH') OR exit('No direct script access allowed');
            <span class="icon-bar"></span>
            <span class="icon-bar"></span>
          </button>
-         <a class="navbar-brand" href="#">SomosTalento</a>
+
+         <a class="navbar-brand" > <span class="glyphicon glyphicon-user" aria-hidden="true"></span></a>
        </div>
        <div id="navbar" class="navbar-collapse collapse">
          <ul class="nav navbar-nav">
            <li class="dropdown">
-             <a href="" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Panel de control <span class="caret"></span></a>
+             <a href="" class="dropdown-toggle" data-toggle="dropdown"
+              role="button" aria-haspopup="true" aria-expanded="false">
+              <span class="glyphicon glyphicon-th-list" aria-hidden="true"></span>
+              Opciones <span class="caret"></span></a>
              <ul class="dropdown-menu" id="menu">
                <li><a id="emp" href="#">Empresa</a></li>
                <li><a id="vac" href="#">Vacantes</a></li>
@@ -40,21 +44,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
            </li>
          </ul>
          <ul class="nav navbar-nav navbar-right">
-           <li><a href="">Cerrar sesión</a></li>
+           <li><a href=""><span class="glyphicon glyphicon-log-out" aria-hidden="true"></span> Salir</a></li>
          </ul>
        </div><!--/.nav-collapse -->
      </div>
    </nav>
    <hr>
-   <hr>
   <!--<h3>Cazatalentos-Panel de control</h3>-->
-
   <div class="container" id="main_content">
     <h1>Bienvenido al panel de control</h1>
-
   </div>
-</div>
-</div>
+
 <div id="wait" style="display:none;width:69px;height:89px; position:absolute;top:50%;left:50%;padding:2px;"><img src='<?=base_url()?>public/img/load.gif' width="64" height="64" /><br></div>
 
 <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
@@ -85,7 +85,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <script src="<?=base_url()?>public/js/jquery-2.1.1.js"></script>
 <script src="<?=base_url()?>public/js/smoothscroll.js"></script>
 <script src="<?=base_url()?>public/js/bootstrap.min.js"></script>
-<script src="<?=base_url()?>public/js/custom.js"></script>
+
 <script>
 $(document).ready(function(){
   $(document).ajaxStart(function(){

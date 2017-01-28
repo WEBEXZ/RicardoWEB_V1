@@ -1,4 +1,3 @@
-
 <div class="panel panel-default">
    <div class="panel-heading">Información de empresa</div>
   <div class="panel-body">
@@ -6,7 +5,7 @@
       <tbody>
         <tr>
           <td>Empresa</td>
-          <td><?php echo $empresa;?></td>
+          <td><?php echo $empresa->empresa;?></td>
         </tr>
         <tr>
           <td>RFC</td>

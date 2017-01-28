@@ -92,8 +92,6 @@ function valida_email()
      //Manda correo y regresa mensaje de exitoso.
     // $this->form_validation->set_message('Correo enviado');
        $this->load->view('login');
-     
-
    }
  
  }
@@ -157,9 +155,6 @@ function check_email()
             );
             $this->db->insert("TAEMPRESA",$data);
     }
-
-
-
 
 }
 ?>
