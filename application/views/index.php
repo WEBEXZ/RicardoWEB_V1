@@ -87,7 +87,6 @@ require_once "recaptchalib.php";
             </div>
         </div>
     </header>
-
     <!-- INICIO -->
     <section class="banner text-center" id="inicio">
         <div class="container">

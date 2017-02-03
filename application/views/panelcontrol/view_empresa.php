@@ -9,13 +9,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 }
 </style>
 <hr>
-<div class="row" id="">
+    <div class="row" id="">
   <div class="col-md-7 col-sm-7 col-xs-7" id="alta_empresa">
     <?php $this->load->view('panelcontrol/view_datos_empresa'); ?>
   </div>
   <div class="col-md-5 col-sm-5 col-xs-5">
     <div class="row">
-      <div class="panel panel-default">
+      <div class="panel panel-primary">
          <div class="panel-heading">Logo empresa</div>
         <div class="panel-body">
           <div class="row">
