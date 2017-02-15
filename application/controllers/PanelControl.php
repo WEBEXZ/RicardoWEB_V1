@@ -8,8 +8,11 @@ class PanelControl extends CI_Controller {
         parent::__construct();
         $this->load->library('session');
         $this->load->helper(array('form', 'url'));
+        $this->load->helper('components');
         $this->load->library('form_validation');
+        
         $this->load->model('empresa');
+        $this->load->model('vacante');
     }
 
     public function index() {
@@ -28,7 +31,8 @@ class PanelControl extends CI_Controller {
             if ($valor == 'emp') {
                 $this->load->view('panelcontrol/view_empresa', array('empresa' => $this->empresa));
             } elseif ($valor == 'vac') {
-                $this->load->view('panelcontrol/view_vacante');
+//                $this->load->view('panelcontrol/view_vacante');
+                $this->getVacantes();
             } elseif ($valor == 'btal') {
                 $this->load->view('panelcontrol/view_busca_talento');
             } else {
@@ -65,8 +69,19 @@ class PanelControl extends CI_Controller {
 //    *********************************************************************************************
 //     Sección de vacantes
 //    *********************************************************************************************
+    
+    public function getVacantes(){
+        $idVacante=$this->empresa->identity;
+        $result=$this->vacante->getVacantes($idVacante);
+        $this->load->view('panelcontrol/view_vacante',array('vacantes'=>$result));
+    }
     public function getFormNewVacante() {
-        $this->load->view('panelcontrol/view_new_vacante');
+        $this->empresa->setEmpresa($this->session->usuario);
+        $this->load->view('panelcontrol/view_new_vacante',array('identity' => $this->empresa->identity));
+    }
+    public function saveInfoVacante(){
+        $this->vacante->addVacantes();
+        echo'<h3>Éxito al insertar</h3>';
     }
 
 }

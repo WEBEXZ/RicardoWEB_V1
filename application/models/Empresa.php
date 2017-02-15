@@ -2,6 +2,7 @@
 
 Class Empresa extends CI_Model {
 
+    public $identity;
     public $empresa;
     public $rfc;
     public $descripcion;
@@ -33,6 +34,7 @@ Class Empresa extends CI_Model {
         $this->estado = $row->FCESTADO;
         $this->ciudad = $row->FCCIUDAD;
         $this->membresia = $row->FCMEMBRESIA;
+        $this->identity=$row->FIEMPRESAID;
     }
 
     public function saveEmpresa() {

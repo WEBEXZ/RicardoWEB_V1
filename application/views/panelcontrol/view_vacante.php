@@ -12,81 +12,45 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             <a href="#" class="list-group-item">Eliminar</a>
         </div>
     </div>
-    <div id="vacante_content" class="col-lg-10 col-md-10 col-sm-9 col-xs-9">
-        <table class="table table-hover">
+    
+    <div id="vacante_content" class="table-responsive col-lg-10 col-md-10 col-sm-9 col-xs-9">
+        <table class="table table-hover">    
+            <thead>
+            <tr>
+            <th>Vacante</th>
+            <th>Funciones</th>
+            </tr>
+            </thead>
             <tbody>
-                <tr>
-                    <td>Puesto</td>
-                    <td>**********</td>
-                </tr>
-                <tr>
-                    <td>Funciones principales</td>
-                    <td>**********</</td>
-                </tr>
-                <tr>
-                    <td>Escolaridad/giro</td>
-                    <td>**********</td>
-                </tr>
-                <tr>
-                    <td>Sueldo mensual bruto</td>
-                    <td>**********</td>
-                </tr>
-                <tr>
-                    <td>Prestaciones</td>
-                    <td>**********</td>
-                </tr>
-                <tr>
-                    <td>Horario</td>
-                    <td>**********</td>
-                </tr>
-                <tr>
-                    <td>Idiomas</td>
-                    <td>**********</td>
-                </tr>
-                <tr>
-                    <td>Viajes</td>
-                    <td>**********</td>
-                </tr>
-
+                <?php
+                foreach($vacantes as $row){
+                    $visualizar= bootStrapButton($row->FIVACANTE);
+                    $txt=sprintf('<tr><td>%s</td><td>%s</td><td>%s</td></tr>',$row->FCPUESTO,$row->FCFUNCIONES,$visualizar);
+                    echo $txt;
+                }
+                ?>
             </tbody>
         </table>
     </div>
 </div>
-<div class="row">
-    <div class="col-md-2 col-md-offset-10">
-        <div class="input-group">
-            <span class="input-group-btn">
-                <button class="btn btn-default" type="button">
-                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-                </button>
-            </span>
-            <input type="text" class="form-control" placeholder="..." style=" text-align: center;">
-            <span class="input-group-btn">
-                <button class="btn btn-default" type="button">
-                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"> </span>
-                </button>
-            </span>
-        </div>
-    </div>
-</div>
 
 <script type="text/javascript" >
-$('#nuevoOpt').click(function(){
-    $('#myModalLabel').text('Información de vacantes');  
-    
-      var request = $.ajax({
-                method: 'POST',
-                url: "<?= base_url()?>panelcontrol/getFormNewVacante"
-            });
-            request.done(function (msg) {
-                $("#modal_content").html(msg);
-                $('#myModal').modal('show'); 
-            });
-            request.fail(function (jqXHR, textStatus) {
-                $("#modal_content").empty();
-            });
-    
-});
+    $('#nuevoOpt').click(function () {
+        $('#myModalLabel').text('Información de vacantes');
+
+        var request = $.ajax({
+            method: 'POST',
+            url: "<?= base_url() ?>panelcontrol/getFormNewVacante"
+        });
+        request.done(function (msg) {
+            $("#modal_content").html(msg);
+            $('#myModal').modal('show');
+        });
+        request.fail(function (jqXHR, textStatus) {
+            $("#modal_content").empty();
+        });
+
+    });
 </script>
 
 
