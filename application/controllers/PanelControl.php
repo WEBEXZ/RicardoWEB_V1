@@ -83,5 +83,10 @@ class PanelControl extends CI_Controller {
         $this->vacante->addVacantes();
         echo'<h3>Éxito al insertar</h3>';
     }
+    public function viewInfoVacante(){
+        $identity=$this->input->post('ident');
+        $result=$this->vacante->getInfoVacante($identity);
+        $this->load->view('panelcontrol/view_info_vacante',array('vacante'=>$result));     
+    }
 
 }

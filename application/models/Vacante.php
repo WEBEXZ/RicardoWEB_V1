@@ -27,4 +27,12 @@ class Vacante extends CI_Model {
         $this->db->insert('TAVACANTES', $data);
     }
 
+    public function getInfoVacante($idVacante) {
+        $this->db->select('*');
+        $this->db->from('TAVACANTES');
+        $this->db->where('FIVACANTE', $idVacante);
+        $query = $this->db->get();
+        return  $query->row();  
+    }
+
 }

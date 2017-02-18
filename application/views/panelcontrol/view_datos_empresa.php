@@ -1,9 +1,7 @@
 <div class="panel panel-primary">
-    <div class="panel-heading">
-       Información de empresa
-    </div>
+    
     <div class="panel-body">
-        <table class="table table-hover">
+        <table class="table table-striped">
             <tbody>
                 <tr>
                     <td>Empresa</td>

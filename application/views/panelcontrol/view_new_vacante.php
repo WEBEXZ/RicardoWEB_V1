@@ -68,7 +68,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                            placeholder="Disponibilidad a viajar" >
                 </div>
             </div>
-            <input type="hidden" value="<?=$identity?>" id="tIdEmpresa" name="tIdEmpresa">
+            <input type="hidden" value="<?= $identity ?>" id="tIdEmpresa" name="tIdEmpresa">
 
 
             <div class="form-group">
@@ -85,8 +85,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 </div>
 <script src="<?= base_url() ?>public/dist/jquery.validate.js"></script>
 <script>
-
-
     $.validator.setDefaults({
         submitHandler: function () {
             var url = $('#tURL').val(); // the script where you handle the form input.
@@ -96,8 +94,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                 data: $("#frmAltaVacante").serialize(), // serializes the form's elements.
                 success: function (data)
                 {
-                   // $("#alta_empresa").html(data);
-                   $("#modal_content").html(data);
+                    // $("#alta_empresa").html(data);
+                    $("#modal_content").html(data);
                 }
             });
 
@@ -105,8 +103,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         }});
 
     $("#frmAltaVacante").validate({
-        rules: {
-            tPuesto: "required",
+    rules: {
+    tPuesto: "required",
             tFunciones: 'required',
             tEscolaridad: 'required',
             tSueldo: 'required',
@@ -114,35 +112,36 @@ defined('BASEPATH') OR exit('No direct script access allowed');
             tHorario: 'required',
             tIdioma: 'required',
             tViajes: 'required'
-        },
-        messages: {
+    },
+            messages: {
             tPuesto: "Ingrese el nombre del puesto",
-            tFunciones:'Ingrese las funciones' ,
-            tEscolaridad: 'Ingrese la escolaridad',
-            tSueldo: 'Ingrese un valor válido para el sueldo',
-            tPrestaciones: 'Ingrese las prestaciones',
-            tHorario: 'Ingrese el horario',
-            tIdioma: 'Ingrese el idioma',
-            tViajes: 'Ingres el viaje'
-        },
-        errorElement: "span",
-        errorPlacement: function (error, element) {
+                    tFunciones:'Ingrese las funciones',
+                    tEscolaridad: 'Ingrese la escolaridad',
+                    tSueldo: 'Ingrese un valor válido para el sueldo',
+                    tPrestaciones: 'Ingrese las prestaciones',
+                    tHorario: 'Ingrese el horario',
+                    tIdioma: 'Ingrese el idioma',
+                    tViajes: 'Ingres el viaje'
+            },
+            errorElement: "span",
+            errorPlacement: function (error, element) {
             // Add the `help-block` class to the error element
             error.addClass("help-block");
-
-            if (element.prop("type") === "checkbox") {
-                error.insertAfter(element.parent("label"));
+                    if (element.prop("type") === "checkbox") {
+            error.insertAfter(element.parent("label"));
             } else {
-                error.insertAfter(element);
+            error.insertAfter(element);
             }
-        },
-        highlight: function (element, errorClass, validClass) {
+            },
+            highlight: function (element, errorClass, validClass) {
             $(element).parents("#val").addClass("has-error").removeClass("has-success");
-        },
-        unhighlight: function (element, errorClass, validClass) {
+            },
+            unhighlight: function (element, errorClass, validClass) {
             $(element).parents("#val").addClass("has-success").removeClass("has-error");
-        }
+            }
     });
+            
+
 
 
 </script>
