@@ -10,7 +10,7 @@ class PanelControl extends CI_Controller {
         $this->load->helper(array('form', 'url'));
         $this->load->helper('components');
         $this->load->library('form_validation');
-        
+
         $this->load->model('empresa');
         $this->load->model('vacante');
     }
@@ -49,6 +49,7 @@ class PanelControl extends CI_Controller {
         $this->empresa->setEmpresa($this->session->usuario);
         $this->load->view('panelcontrol/view_new_empresa', array('empresa' => $this->empresa));
     }
+
     private function muestraInformacionEmpresa() {
         $this->empresa->setEmpresa($this->session->usuario);
         $this->load->view('panelcontrol/view_datos_empresa', array('empresa' => $this->empresa));
@@ -66,27 +67,42 @@ class PanelControl extends CI_Controller {
             $this->muestraInformacionEmpresa();
         }
     }
+
 //    *********************************************************************************************
 //     Sección de vacantes
 //    *********************************************************************************************
-    
-    public function getVacantes(){
-        $idVacante=$this->empresa->identity;
-        $result=$this->vacante->getVacantes($idVacante);
-        $this->load->view('panelcontrol/view_vacante',array('vacantes'=>$result));
+
+    public function getVacantes() {
+        $idVacante = $this->empresa->identity;
+        $result = $this->vacante->getVacantes($idVacante);
+        $this->load->view('panelcontrol/view_vacante', array('vacantes' => $result));
     }
+
     public function getFormNewVacante() {
         $this->empresa->setEmpresa($this->session->usuario);
-        $this->load->view('panelcontrol/view_new_vacante',array('identity' => $this->empresa->identity));
+        $this->load->view('panelcontrol/view_new_vacante', array('identity' => $this->empresa->identity));
     }
-    public function saveInfoVacante(){
+
+    public function saveInfoVacante() {
         $this->vacante->addVacantes();
         echo'<h3>Éxito al insertar</h3>';
     }
-    public function viewInfoVacante(){
-        $identity=$this->input->post('ident');
-        $result=$this->vacante->getInfoVacante($identity);
-        $this->load->view('panelcontrol/view_info_vacante',array('vacante'=>$result));     
+
+    public function viewInfoVacante() {
+        $identity = $this->input->post('ident');
+        $result = $this->vacante->getInfoVacante($identity);
+        $this->load->view('panelcontrol/view_info_vacante', array('vacante' => $result));
+    }
+
+    public function editInfoVacante() {
+        $identity = $this->input->post('ident');
+        $result = $this->vacante->getInfoVacante($identity);
+        $this->load->view('panelcontrol/view_edit_vacante', array('vacante' => $result));
+    }
+
+    public function deleteInfoVacante($identity) {
+        $result = $this->vacante->getInfoVacante($identity);
+        $this->load->view('panelcontrol/view_delete_vacante', array('nombre' => $result->FCPUESTO, 'ID' => $result->FIVACANTE));
     }
 
 }

@@ -48,10 +48,10 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
     <div class="row">
       <div class="btn-group" role="group" aria-label="...">
-        <button onclick="newEmpresa()" type="button" class="btn btn-sm btn-default">
+        <button onclick="newEmpresa()" type="button" class="btn btn-sm btn-black">
           <span class="glyphicon glyphicon-pencil" aria-hidden="true" > </span> Editar
         </button>
-        <button  onclick="defaultDataEmpresa()"type="button" class="btn  btn-sm btn-default">
+        <button  onclick="defaultDataEmpresa()"type="button" class="btn  btn-sm btn-warning">
           <span class="glyphicon glyphicon-ban-circle" aria-hidden="true"> </span> Cancelar
         </button>
         <!--

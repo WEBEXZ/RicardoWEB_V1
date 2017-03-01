@@ -8,6 +8,7 @@ class VerifyLogin extends CI_Controller {
     function __construct() {
         parent::__construct();
         $this->load->model('user', '', TRUE);
+        $this->load->library('session');
     }
 
     function valida_login() {
@@ -25,12 +26,16 @@ class VerifyLogin extends CI_Controller {
             print $this->load->view('login', $data, true);
         } else {
             //Te muestra la página principal, solo si estas logueado.
-            redirect('home', 'refresh');
+            if ($this->session->tipo == 1) {
+                redirect(base_url().'candidatos', 'refresh');
+                
+            } else {
+                redirect(base_url().'panelcontrol', 'refresh');
+            }
         }
     }
 
     function check_database() {
-        $this->load->library('session');
         //Si pasa las válidaciones, buscan en la base de datos si existe.
 
         $username = $this->input->post('username');
@@ -53,6 +58,7 @@ class VerifyLogin extends CI_Controller {
 
                 $this->session->set_userdata('logged_in', $sess_array);
                 $this->session->set_userdata('usuario', $row->FCEMAIL);
+                $this->session->set_userdata('tipo', $cazatalentos);
             }
             return TRUE;
         } else {
@@ -128,6 +134,14 @@ class VerifyLogin extends CI_Controller {
             'FISTATUS' => 1
         );
         $this->db->insert("TAEMPRESA", $data);
+    }
+
+    function confirmaCerrarSesion() {
+        $this->load->view('session/view_end_session');
+    }
+
+    function cerrarSesion() {
+        $this->session->sess_destroy();
     }
 
 }

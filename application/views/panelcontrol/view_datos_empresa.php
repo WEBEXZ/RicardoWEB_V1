@@ -1,62 +1,63 @@
 <div class="panel panel-primary">
     
     <div class="panel-body">
-        <table class="table table-striped">
+        <table class="table table-striped" id="table-info">
             <tbody>
                 <tr>
-                    <td>Empresa</td>
-                    <td><b><?= $empresa->empresa; ?></b></td>
+                    <td class="tdright"><span class="dataDB">EMPRESA:</span></td>
+                    <td><?= $empresa->empresa; ?></td>
                 </tr>
                 <tr>
-                    <td>RFC</td>
-                    <td><b><?= $empresa->rfc; ?></b> </</td>
+                    <td class="tdright"><span class="dataDB">RFC:</span></td>
+                    <td><?= $empresa->rfc; ?> </td>
                 </tr>
                 <tr>
-                    <td>Descripción/giro</td>
-                    <td><b><?= $empresa->descripcion; ?></b> </td>
+                    <td class="tdright"><span class="dataDB">DESCRIPCIÓN/GIROS:</span></td>
+                    <td><?= $empresa->descripcion; ?></td>
                 </tr>
                 <tr>
-                    <td>Dirección</td>
-                    <td><b><?= $empresa->direccion; ?></b> </td>
+                    <td class="tdright"><span class="dataDB">DIRECCIÓN:</span></td>
+                    <td><?= $empresa->direccion; ?> </td>
                 </tr>
                 <tr>
-                    <td>Teléfono</td>
-                    <td><b><?= $empresa->telefono; ?></b> </td>
+                    <td class="tdright"><span class="dataDB">TELÉFONO:</span></td>
+                    <td><?= $empresa->telefono; ?> </td>
                 </tr>
                 <tr>
-                    <td>Responsable</td>
-                    <td><b><?= $empresa->responsable; ?></b> </td>
+                    <td class="tdright"><span class="dataDB">RESPONSABLE:</span></td>
+                    <td><?= $empresa->responsable; ?> </td>
                 </tr>
                 <tr>
-                    <td>Página WEB</td>
-                    <td><b><?= $empresa->pagina; ?></b> </td>
+                    <td class="tdright"><span class="dataDB">PÁGINA WEB:</span></td>
+                    <td><?= $empresa->pagina; ?> </td>
                 </tr>
                 <tr>
-                    <td>Correo contacto</td>
-                    <td><b><?= $empresa->mail; ?></b> </td>
+                    <td class="tdright"><span class="dataDB">CORREO CONTACTO:</span></b></td>
+                    <td><?= $empresa->mail; ?> </td>
                 </tr>
                 <tr>
-                    <td>País</td>
-                    <td><b><?= $empresa->pais ?></b> </td>
+                    <td class="tdright"><span class="dataDB">PAÍS:</span></td>
+                    <td><?= $empresa->pais ?> </td>
                 </tr>
                 <tr>
-                    <td>Estado</td>
-                    <td><b><?= $empresa->estado ?></b></td>
+                    <td class="tdright"><span class="dataDB">ESTADO:</span></td>
+                    <td><?= $empresa->estado ?></td>
                 </tr>
                 <tr>
-                    <td>Ciudad</td>
-                    <td><b><?= $empresa->ciudad ?></b></td>
+                    <td class="tdright"><span class="dataDB">CIUDAD:</span></td>
+                    <td><?= $empresa->ciudad ?></td>
                 </tr>
                 <tr>
-                    <td>Membresía</td>
-                    <td><b><?= $empresa->membresia ?></b></td>
+                    <td class="tdright"><span class="dataDB">MEMBRESÍA:</span></td>
+                    <td><?= $empresa->membresia ?></td>
                 </tr>
 
                 <tr>
-                    <td>Código/Referencia</td>
+                    <td class="tdright"><span class="dataDB">CÓDIGO/REFERENCIA:</span></td>
                     <td>**********</td>
                 </tr>
             </tbody>
         </table>
+        
     </div>
 </div>

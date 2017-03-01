@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 <h3>Vacantes disponibles</h3>
 <div class="row">
     <div class="col-lg-2 col-lg-offset-10 col-md-2 col-md-offset-10">
-        <button class="btn btn-default" id="nuevoOpt">
+        <button class="btn btn-black" id="nuevoOpt">
             <span class="glyphicon glyphicon-plus-sign"></span> Agregar vacante
         </button>
     </div>
@@ -14,8 +14,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <table class="table table-hover">    
             <thead>
                 <tr>
-                    <th>Puesto</th>
-                    <th>Funciones</th>
+                    <th>PUESTO</th>
+                    <th>FUNCIONES</th>
                     <th></th>
                 </tr>
             </thead>
@@ -57,8 +57,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         var request = $.ajax({
             method: 'POST',
             url: "<?= base_url() ?>panelcontrol/viewInfoVacante",
-            data:{'ident':value},
-            datatype:'json'
+            data: {'ident': value},
+            datatype: 'json'
         });
         request.done(function (msg) {
             $("#modal_content").html(msg);
@@ -69,11 +69,37 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         });
     }
     function editInfo(value) {
-
+        $('#myModalLabel').text('Edición de vacantes');
+        var request = $.ajax({
+            method: 'POST',
+            url: "<?= base_url() ?>panelcontrol/editInfoVacante",
+            data: {'ident': value},
+            datatype: 'json'
+        });
+        request.done(function (msg) {
+            $("#modal_content").html(msg);
+            $('#myModal').modal('show');
+        });
+        request.fail(function (jqXHR, textStatus) {
+            $("#modal_content").empty();
+        });
     }
     function deleteInfo(value) {
-
+        $('#myModalLabel').text('Eliminar vacante');
+        var request = $.ajax({
+            method: 'POST',
+            url: "<?= base_url() ?>panelcontrol/deleteInfoVacante/"+value
+        });
+        request.done(function (msg) {
+            $("#modal_content").html(msg);
+            $('#myModal').modal('show');
+        });
+        request.fail(function (jqXHR, textStatus) {
+            $("#modal_content").empty();
+        });
     }
+
+
 </script>
 
 

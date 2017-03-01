@@ -3090,7 +3090,7 @@ textarea.input-lg, textarea.form-group-lg .form-control, select[multiple].input-
     user-select: none;
     background-image: none;
     border: 1px solid transparent;
-    border-radius: 4px;
+    border-radius: 0px;
 }
 
     .btn:focus, .btn:active:focus, .btn.active:focus, .btn.focus, .btn:active.focus, .btn.active.focus {
@@ -3172,6 +3172,33 @@ textarea.input-lg, textarea.form-group-lg .form-control, select[multiple].input-
         background-color: #fff;
     }
 
+    .btn-black {
+    color: white;
+    background-color: black;
+    border-color: black;
+}
+
+    .btn-black:hover, .btn-black:focus, .btn-black.focus, .btn-black:active, .btn-black.active, .open > .dropdown-toggle.btn-black {
+        color: white;
+        background-color: black;
+        border-color: black;
+    }
+
+    .btn-black:active, .btn-black.active, .open > .dropdown-toggle.btn-black {
+        background-image: none;
+    }
+
+    .btn-black.disabled, .btn-black[disabled], fieldset[disabled] .btn-black, .btn-black.disabled:hover, .btn-black[disabled]:hover, fieldset[disabled] .btn-black:hover, .btn-black.disabled:focus, .btn-black[disabled]:focus, fieldset[disabled] .btn-black:focus, .btn-black.disabled.focus, .btn-primary[disabled].focus, fieldset[disabled] .btn-primary.focus, .btn-primary.disabled:active, .btn-black[disabled]:active, fieldset[disabled] .btn-black:active, .btn-black.disabled.active, .btn-primary[disabled].active, fieldset[disabled] .btn-black.active {
+        background-color: #337ab7;
+        border-color: #2e6da4;
+    }
+
+    .btn-black .badge {
+        color: #337ab7;
+        background-color: #fff;
+    }
+     
+    
 .btn-success {
     color: #fff;
     background-color: #5cb85c;
@@ -3307,21 +3334,21 @@ textarea.input-lg, textarea.form-group-lg .form-control, select[multiple].input-
     padding: 10px 16px;
     font-size: 18px;
     line-height: 1.33;
-    border-radius: 6px;
+    border-radius: 0px;
 }
 
 .btn-sm, .btn-group-sm > .btn {
     padding: 5px 10px;
     font-size: 12px;
     line-height: 1.5;
-    border-radius: 3px;
+    border-radius: 0px;
 }
 
 .btn-xs, .btn-group-xs > .btn {
     padding: 1px 5px;
     font-size: 12px;
     line-height: 1.5;
-    border-radius: 3px;
+    border-radius: 0px;
 }
 
 .btn-block {
@@ -5884,6 +5911,13 @@ button.close {
     min-height: 16.43px;
     padding: 15px;
     border-bottom: 1px solid #e5e5e5;
+}
+.modal-header-st {
+    min-height: 16.43px;
+    padding: 15px;
+    border-bottom: 1px solid black;
+    background-color: #504f4f;
+    color:white;
 }
 
     .modal-header .close {

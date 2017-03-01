@@ -54,7 +54,6 @@ class Inicio extends CI_Controller {
 		        $mensaje = $this->input->post('mensaje');
 			
 			//$WAGLOBAL_Email_Server = "" ;
-
 			ini_set('SMTP','servidor3336.tl.controladordns.com'); 
 			ini_set('smtp_port','465');
 			  // Email
