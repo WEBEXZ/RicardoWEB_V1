@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 require_once "recaptchalib.php";
 ?>
 <!DOCTYPE html>
@@ -28,7 +28,7 @@ require_once "recaptchalib.php";
             <div class="row header-row">
                 <div class="col-md-12">
                     <nav class="navbar navbar-default">
-                        <a href="index.php"><img src="<?=base_url()?>public/img/LOGO_ST.png" alt="" class="logo" width="80" height="65"></a>
+                        <a href="index.php"><img src="<?=base_url()?>public/img/logotipo_somostalentos.jpg" alt="" class="logo" width="80" height="65"></a>
                         <div class="container-fluid">
                             <!-- Móviles -->
                             <div class="navbar-header">
@@ -113,22 +113,22 @@ require_once "recaptchalib.php";
 
                     <p>
                         Somos un grupo de profesionales en Recursos Humanos con muchos años <br />
-                        de experiencia, con la intención de crear alternativas de búsquedas de <br />
-                        talentos además de las que ya existen, estamos convencidos de que todas <br />
+                        de experiencia, con la intención de crear alternativas de búsqueda de <br />
+                        talentos además de las que ya existen. Estamos convencidos de que todas <br />
                         las actividades profesionales también deben evolucionar y ofrecer nuevas <br />
                         alternativas a las personas en busca de oportunidades laborales.
-                        laborales.
                         <br>
                         <br>
                     </p>
 
                     <h3>Cambiamos la forma de reclutar</h3>
                     <p>
-                        En la actualidad se necesitan nuevo métodos de búsquedas de talentos más <br />
+                        En la actualidad se necesitan nuevos métodos de búsqueda de talentos más <br />
                         eficaces, menos costosos y que se invierta poco tiempo, éste sitio ofrece <br />
                         todas esas ventajas, es un sitio de interacción entre reclutadores y candidatos.
                     </p>
                 </div>
+                <h2>Valores</h2>
                 <div class="col-md-12 services">
                     <div class="col-md-2 single-service col-xs-6 col-sm-3">
                         <i class="fa fa-blind"></i>
@@ -156,7 +156,7 @@ require_once "recaptchalib.php";
                     <div class="col-md-2 col-md-push-1 single-service col-sm-3 col-xs-6">
                         <i class="fa fa-thumbs-o-up"></i>
                         <h3><b>CONFIANZA</b></h3>
-                        <p align="justify">Confia en el talento de las personas.</p>
+                        <p align="justify">Confiar en el talento de las personas.</p>
                     </div>
                 </div>
             </div>
@@ -503,7 +503,7 @@ require_once "recaptchalib.php";
                         <i class="fa fa-object-group fa-3x"></i><b> Evaluación psicométrica en línea.- </b> Podrás aplicar exámenes 
                         psicométricos al candidato vía internet y recibirás el resultado en tu correo electrónico, para que lo puedas 
                         interpretar. Éste servicio te ahorrará mucho tiempo en tu proceso. Puedes aplicar hasta 3 exámenes que abarcan 
-                        personalidad, cultura y razonamiento y aptitud para ventas.
+                        personalidad, cultura, razonamiento y aptitud para ventas.
                     </p>
                     <p align="justify">
                         <i class="fa fa-bar-chart fa-3x"></i><b> Generación de reporte de entrevistas realizadas.- </b> Podrás solicitar 
@@ -554,7 +554,7 @@ require_once "recaptchalib.php";
                         </thead>
                         <tbody>
                             <tr>
-                                <td>Costo mensual + IVA</td>
+                                <td>Costo mensual + IVA *</td>
                                 <td>$ 250 MN</td>
                                 <td>$ 500 MN</td>
                             </tr>
@@ -590,6 +590,7 @@ require_once "recaptchalib.php";
                             </tr>
                         </tbody>
                     </table>
+                    <p><b>*</b>Se pueden realizar pagos mensuales, bimestrales, trimestral, semestral o anual.</p>
 
                     <button class="boton" onclick="document.getElementById('login').scrollIntoView()">CONTRATAR</button>
                     <br />
@@ -610,7 +611,7 @@ require_once "recaptchalib.php";
                             </tr>
                             <tr>
                                 <td>Galeria</td>
-                                <td>$ 50 MN</td>
+                                <td>$ 50 MN (Pago Mensual)</td>
                             </tr>
                         </tbody>
                     </table>
