@@ -59,6 +59,7 @@ class VerifyLogin extends CI_Controller {
                 $this->session->set_userdata('logged_in', $sess_array);
                 $this->session->set_userdata('usuario', $row->FCEMAIL);
                 $this->session->set_userdata('tipo', $cazatalentos);
+                $this->session->set_userdata('identificador',str_replace(".", "",$row->FCEMAIL));
             }
             return TRUE;
         } else {

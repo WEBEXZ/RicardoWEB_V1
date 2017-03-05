@@ -26,5 +26,17 @@ function bootStrapButtonVacante($id, $opcion) {
             break;
     }
     return '<button id="' . $id . '" title="' . $title . '" class="btn btn-sm ' . $color . '" onclick="' . $funcion . '">' .
-            $icono .'</button>';
+            $icono . '</button>';
+}
+
+function getPopoverInfoVacante($name, $trigger, $icon, $text) {
+    return' <a href="#" id="' . $name . '" tabindex="0" role="button" data-toggle="popover"
+                       data-trigger="' . $trigger . '" title=""  data-content="" >
+                        <span class="glyphicon ' . $icon . '"></span> ' . $text . '</a>';
+}
+
+        function getPopoverInfoVacanteButton($name, $trigger, $icon, $text) {
+    return' <a class="btn btn-black btn-md" href="#" id="' . $name . '" tabindex="0" role="button" data-toggle="popover"
+                       data-trigger="' . $trigger . '" title=""  data-content="" >
+                        <span class="glyphicon ' . $icon . '"></span> ' . $text . '</a>';
 }
