@@ -111,20 +111,27 @@ require_once "recaptchalib.php";
                 <div class="col-md-12">
                     <h2>Quiénes somos</h2>
 
-                    <p>
-                        Somos un grupo de profesionales en Recursos Humanos con muchos años <br />
-                        de experiencia, con la intención de crear alternativas de búsqueda de <br />
-                        talentos además de las que ya existen. Estamos convencidos de que todas <br />
-                        las actividades profesionales también deben evolucionar y ofrecer nuevas <br />
-                        alternativas a las personas en busca de oportunidades laborales.
+                    <p align="justify">
+                        Somos un grupo de profesionales Mexicanos con amplia y reconocida experiencia
+                        en el ámbito de los recursos humanos, el desarrollo organizacional, la asesoría
+                        empresarial, la capacitación especializada y el desarrollo humano, con<strong> el objetivo</strong>
+                        de implementar alternativas innovadoras de búsqueda de talentos, adicionales a 
+                        las que ya existen en el mercado.
+                        <br />
+                        <br />
+                        Tenemos la firme convicción de que el área de recursos humanos debe continuar
+                        evolucionando y ofrecer nuevas alternativas tecnológicas y humanas a las personas
+                        en busca de oportunidades laborales y, al mismo tiempo, otorgar un servicio profesional
+                        a las empresas para encontrar personas que poseen el talento adecuado a sus necesidades
+                        organizacionales.
                         <br>
                         <br>
                     </p>
 
                     <h3>Cambiamos la forma de reclutar</h3>
-                    <p>
-                        En la actualidad se necesitan nuevos métodos de búsqueda de talentos más <br />
-                        eficaces, menos costosos y que se invierta poco tiempo, éste sitio ofrece <br />
+                    <p align="justify">
+                        En la actualidad se necesitan nuevos métodos de búsqueda de talentos más 
+                        eficaces, menos costosos y que se invierta poco tiempo, éste sitio ofrece 
                         todas esas ventajas, es un sitio de interacción entre reclutadores y candidatos.
                     </p>
                 </div>
@@ -139,7 +146,8 @@ require_once "recaptchalib.php";
                     <div class="col-md-2 col-md-push-1 single-service col-xs-6 col-sm-3">
                         <i class="fa fa-child"></i>
                         <h3><b>INNOVACIÓN</b></h3>
-                        <p align="justify">Analizar situaciones, detectar problemas y desarrollar soluciones.</p>
+                        <p align="justify">Transformar el proceso de atraer y elegir a una persona, a través de
+                            establecer un enfoque diferente sobre el talento de un candidato.</p>
                     </div>
                 </div>
 
@@ -148,8 +156,8 @@ require_once "recaptchalib.php";
                     <div class="col-md-2 single-service col-sm-3 col-xs-6">
                         <i class="fa fa-group"></i>
                         <h3><b>COLABORACIÓN</b></h3>
-                        <p align="justify">Ayudar a las empresas a conseguir los mejores talentos y ayudar a los trabajadores a
-                                           encontrar las mejores oportunidades de trabajo.
+                        <p align="justify">Ayudar a las empresas a conseguir los mejores talentos y apoyar a las personas a 
+                                           encontrar nuevas las mejores oportunidades de desarrollo laboral y profesional.
                         </p>
                     </div>
 
@@ -158,6 +166,18 @@ require_once "recaptchalib.php";
                         <h3><b>CONFIANZA</b></h3>
                         <p align="justify">Confiar en el talento de las personas.</p>
                     </div>
+                    
+                </div>
+                
+                <div class="col-md-12  services bottom-services">
+                    <div class="col-md-2 single-service col-sm-3 col-xs-6">
+                        <i class="fa fa-desktop"></i>
+                        <h3><b>TECNOLOGÍA</b></h3>
+                        <p align="justify">Usar la tecnología actual en favor de las empresas para facilitar y eficientar
+                            diversas tareas de Recursos Humanos y para proporcionar una alternativa innovadora a las
+                            personas en su búsqueda de oportunidades de desarrollo laboral.</p>
+                    </div>
+                    <div class="col-md-2 col-md-push-1 single-service col-sm-3 col-xs-6"></div>
                 </div>
             </div>
         </div>
@@ -169,17 +189,17 @@ require_once "recaptchalib.php";
             <div class="portfolio-heading">
                 <h2>MISIÓN</h2>
                 <p>
-                    Ser un medio efectivo, ágil y confiable de enlace entre empresas
-                    y personas, <br /> para generar oportunidades laborales, 
-                    eliminando todas las barreras posibles en la detección de talentos.
+                    Somos un medio tecnológico y humano de enlace efectivo, ágil, interactivo y
+                    confiable, entre empresas y personas,<br /> para generar oportunidades laborales, 
+                    eliminando diversas barreras para detectar talentos.
                 </p>
             </div>
 
             <div class="portfolio-heading">
                 <h2>VISIÓN</h2>
                 <p>
-                    Ser el medio que a más personas ayude a conseguir el trabajo que
-                    buscan <br />y a las empresas a conseguir a los candidatos más adecuados.
+                    Ser un medio tecnológico y humano que ayude a más personas a obtener el puesto de trabajo acorde 
+                    <br />a su talento y habilidades, y a las empresas a conseguir a los candidatos con más capacidades.
                 </p>
             </div>
         </div>
@@ -192,12 +212,13 @@ require_once "recaptchalib.php";
                 <div class="service-overlay"></div>
                 <div class="col-md-12">
                     <h2>Filosofía</h2>
-                    <p>
-                        Promover la igualdad, sin importar la edad, sexo, religión, rasgos físicos o preferencia<br />
-                        sexual. <b>SÓLO</b> importa el talento <u>inicialmente</u> para ser  elegidos. Buscamos cambiar la<br />
-                        mentalidad de los reclutadores, para que no desperdicien talentos, por no cumplir con<br />
-                        un perfil al 100%, sólo revisando un CV. Queremos promover la selección primero por<br />
-                        talento y después por experiencia y conocimientos.
+                    <p align="justify">
+                        Promover la igualdad de oportunidades de trabajo, sin importar la edad, el sexo, la religión,
+                        el estado civil, los rasgos físicos y apariencia, las capacidades diferentes, el lugar de procedencia
+                        o la preferencia sexual. Sólo importa <u>inicialmente</u> el talento para ser elegidos. Buscamos modificar
+                        la percepción de los reclutadores, para que no desperdicien el talento de una persona y consideren que no
+                        cumplen un perfil al 100% con la sola lectura de un Currículum Vitae. Promovemos la selección de personal
+                        primero por su talento y después por otros factores.
                         <br>
                         <br>
                     </p>
@@ -213,13 +234,12 @@ require_once "recaptchalib.php";
                 <div class="service-overlay"></div>
                 <div class="col-md-12">
                     <h2>Objetivos</h2>
-
                     <p>
-                        <ul>
-                            <li>Proveer a los reclutadores del mejor talento para cubrir sus vancantes, con<br />
-                                acceso a una base de datos entre muchos candidatos de todos los perfiles. </li><br /> 
-                            <li>Que los reclutadores conozcan a los candidatos por lo que son como personas <br />
-                                y por sus talentos, en vez de por lo que dice su CV.</li><br /> 
+                        <ul align="justify">
+                            <li>Proveer a los reclutadores del mejor talento para cubrir sus vancantes, con acceso a una base de datos
+                                de candidatos de todo tipo de perfiles personales y laborales: básicos,especiales,técnicos o profesionales.</li><br /> 
+                            <li>Que los reclutadores conozcan a los candidatos por su perfil como personas y por sus talentos,
+                                en vez de la simple lectura de su Currículum Vitae.</li><br /> 
                             <li>Romper paradigmas en la selección de personal.</li>
                         </ul>
                         <br>
@@ -423,7 +443,11 @@ require_once "recaptchalib.php";
                             <i class="fa fa-check-square-o"></i> Se pueden conocer muestras del trabajo de los candidatos
                                                                  o sus logros incluso antes de contactarlos.
                         </p>
-                        <p align="justify"><i class="fa fa-check-square-o"></i> Facilitamos el trabajo a los Head-Hunters.</p>
+                        <p align="justify"><i class="fa fa-check-square-o"></i> Facilitamos el trabajo al área de Recursos Humanos,
+                                                                                a los Head-Hunters y a cualquier tipo de empresa,
+                                                                                negocio o institución que requiera personas con el
+                                                                                talento adecuado a sus perfiles laborales.
+                        </p>
                         <br />
                         <br />
                     </div>
@@ -438,7 +462,7 @@ require_once "recaptchalib.php";
         <div class="row portfolio-row">
             <div class="servicios-heading">
                 <h2>SERVICIOS</h2>
-                <h3>!Cambiamos la forma de reclutar!</h3>
+                <h3>!Innovamos el proceso de atraer y elegir al talento humano!</h3>
                 <br />
                 <p align="justify">Existen miles de formas de redactar un currículum y por esta razón, pensamos
                                    que no existe una forma correcta, sin embargo, si existe una forma incorrecta
@@ -491,19 +515,24 @@ require_once "recaptchalib.php";
                     </p>
                     <p align="justify">
                         <i class="fa fa-users fa-3x"></i><b> Entrevista virtual en forma de chat en tiempo real (NO es videoconferencia).- </b>
-                        En ves de ver un CV, los puedes entrevistar para conocer sus habilidades y decidir si es el talento que necesitas.
+                        En vez de revisar un Currículum Vitae, podrás entrevistar a las personas para conocer sus habilidades y decidir si es
+                        el talento que necesitas.
                     </p>
                     <p align="justify">
-                        <i class="fa fa-desktop fa-3x"></i><b> Entrevista en línea.- </b> Si prefieres, puedes generar una entrevista y 
-                        enviarla al candidato para que la conteste y decidir si es el talento que necesitas, dependiendo del plan que 
-                        contrates, podrás crear tus entrevistas y guardarlas para aplicarlas las veces que necesites, o bien, editarlas 
-                        dependiendo de lo que necesites evaluar.
+                        <i class="fa fa-desktop fa-3x"></i><b> Entrevista en línea.- </b> Si prefieres, puedes generar una entrevista  por
+                        escrito y enviarla al candidato para que la conteste y decidir si es el talento que necesitas.
+                        Dependiendo del plan que contrates, podrás crear tus propias entrevistas y guardarlas para aplicarlas las veces que
+                        necesites, o bien, editarlas en función de tus necesidades y lo que necesites conocer.
                     </p>
                     <p align="justify">
                         <i class="fa fa-object-group fa-3x"></i><b> Evaluación psicométrica en línea.- </b> Podrás aplicar exámenes 
-                        psicométricos al candidato vía internet y recibirás el resultado en tu correo electrónico, para que lo puedas 
-                        interpretar. Éste servicio te ahorrará mucho tiempo en tu proceso. Puedes aplicar hasta 3 exámenes que abarcan 
-                        personalidad, cultura, razonamiento y aptitud para ventas.
+                        psicométricos al candidato vía internet, recibiendo el resultado en tu correo electrónico y posteriormente lleves
+                        a cabo la interpretación respectiva, éste servicio te facilitará el proceso de selección, ya que tendrás un acceso para
+                        aplicar hasta 3 exámenes por candidato, evaluando factores tales como: Inteligencia, valores, habilidades de supervisión
+                        y aptitudes para las ventas, de acuerdo a lo requerido en tu perfil de puesto.<br  /><br  />
+                        Tendrás la opción de asistir a nuestros cursos realizados en la Cd. de México sobre el tema de evaluaciones psicométricas
+                        y/o el proceso efectivo de atracción de talento humano, de acuerdo al calendario mensual propuesto, a costos preferenciales 
+                        al contar con tu registro de "Cazatalentos".
                     </p>
                     <p align="justify">
                         <i class="fa fa-bar-chart fa-3x"></i><b> Generación de reporte de entrevistas realizadas.- </b> Podrás solicitar 
