@@ -213,6 +213,12 @@ ul.nav{
 	background-size: cover;
 	position: relative;
 }
+.service_filo p{
+        font-size: 14px;
+        color: #7e8287;
+        margin-left: 42em;
+        width: 50em;
+}
 .service_obj{
 	margin: 0;
 	padding: 0;
@@ -221,6 +227,11 @@ ul.nav{
 	background-position: center;
 	background-size: cover;
 	position: relative;
+}
+.service_obj ul{
+        font-size: 14px;
+        color: #7e8287;
+        width: 40em;
 }
 .service_comparativo{
 	margin: 0;
@@ -310,13 +321,17 @@ ul.nav{
 	font-size: 16px;
 	color: #7e8287;
 	margin-top: 35px;
+        width: 39em;
+}
+#pfilos{
+    width: 39em;
 }
 .services{
 	margin-left: 0;
 	padding-left: 0;
 }
 .bottom-services{
-	margin-bottom: 80px;
+	margin-bottom: 15px;
 }
 .single-service{
 	margin-left: 0;
@@ -364,6 +379,7 @@ ul.nav{
 	font-size: 11px;
 	color: #7e8287;
 	margin-top: 5px;
+        width: 20em;
 }
 .single-service:hover.single-service i.fa{
 	/*color: #fff;*/
