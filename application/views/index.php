@@ -799,7 +799,7 @@ require_once "recaptchalib.php";
     
     <!-- Footer -->
     <footer class="footer text-center">
-        <p>Derechos Reservados | <a href="#">Términos de uso y Políticas</a> | <a href="#">Aviso de Privacidad</a> | <a href="#">Asistencia</a></p>
+        <p>Derechos Reservados | <a href="<?=base_url()?>public/docs/Terminos_de_Uso.docx">Términos de uso y Políticas</a> | <a href="<?=base_url()?>public/docs/Aviso_de_Privacidad.docx">Aviso de Privacidad</a> | <a href="#">Asistencia</a></p>
     </footer>
 
     <!-- script -->
