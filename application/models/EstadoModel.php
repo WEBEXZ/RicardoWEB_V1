@@ -2,8 +2,6 @@
 
 Class EstadoModel extends CI_Model {
 
-    public $datos;
-
     public function __construct() {
         parent::__construct();
     }
@@ -13,8 +11,7 @@ Class EstadoModel extends CI_Model {
         $this->db->from('TAESTADOS');
         $this->db->where('FIPAISID', $idPais);
         $query = $this->db->get();
-        $this->datos = $query->result();
-        return $datos;
+        return $query->result();
     }
 
     public function getEstadoByPais($idPais, $idEstado) {
@@ -24,16 +21,14 @@ Class EstadoModel extends CI_Model {
         $this->db->where('FIESTADOID', $idEstado);
         $this->db->limit(1);
         $query = $this->db->get();
-        $this->datos = $query->result();
-        return $datos;
+        return $query->result();
     }
 
     public function getEstados() {
         $this->db->select('*');
         $this->db->from('TAESTADOS');
         $query = $this->db->get();
-        $this->datos = $query->result();
-        return $datos;
+        return $query->result();
     }
 }
 
