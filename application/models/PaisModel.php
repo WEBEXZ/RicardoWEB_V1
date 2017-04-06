@@ -2,8 +2,6 @@
 
 Class PaisModel extends CI_Model {
 
-    public $datos;
-
     public function __construct() {
         parent::__construct();
     }
@@ -14,16 +12,14 @@ Class PaisModel extends CI_Model {
         $this->db->where('FIPAISID', $idPais);
         $this->db->limit(1);
         $query = $this->db->get();
-        $this->datos = $query->result();
-        return $datos;
+        return $query->result();
     }
 
     public function getPaises() {
         $this->db->select('*');
         $this->db->from('TAPAISES');
         $query = $this->db->get();
-        $this->datos = $query->result();
-        return $datos;
+        return $query->result();
     }
 }
 
